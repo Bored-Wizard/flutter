@@ -4,4 +4,4 @@ ENV FLUTTER_ROOT=/workspace/flutter \
     FLUTTER_HOME=/workspace/flutter
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh" \
-    sudo apt install update && apt install android-sdk
+    sudo apt-get update && sudo apt-get install android-sdk -y
